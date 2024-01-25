@@ -1,0 +1,144 @@
+nav {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, rgb(126, 205, 229), rgb(0, 194, 237));
+   color: #000;
+  }
+  
+ 
+  nav a {
+   
+    color: rgb(22, 1, 1);
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+#about{
+  border-style: double;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+  nav a:hover {
+    background-color: #0c0101;
+    color: #39cfdf;
+    border-radius: 100px;
+  }
+  
+
+  nav a.active {
+    background-color: #4CAF50;
+  }
+  
+  #home{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  #gaming{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  #contact{
+   
+  
+    border-style: double;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to bottom right, rgb(83, 229, 243), yellow);
+    font-size: 20px;
+    
+
+  }
+
+
+  ul {
+    list-style-type: none;
+    padding: 100px;
+}
+
+li {
+    line-height: 3; 
+    font-size: 30px;
+  
+    background: linear-gradient(to right, #9e1a4d, #ff6b08,#023312, #3c3704);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000; 
+}
+
+.game {
+
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    padding: 10px;
+  }
+  marquee{
+    font-size: 40px;
+    animation: blinker 1.5s linear infinite;
+                color: rgb(138, 240, 252);
+                font-family: 'Times New Roman', Times, serif;
+               
+                background-color: #000;
+  }
+
+  input{
+    height: 25px;
+    width: 120px;
+
+  }
+
+  footer{
+    
+    background-image: linear-gradient(to bottom right, rgb(176, 197, 96), rgb(85, 228, 201));
+    color: #000;
+    font-size: 17px;
+  }
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    color: #fa0909;
+    background-color: #080101; 
+    border: 2px solid #2980b9; 
+    cursor: pointer;
+  }
+
+  /* Hover effect */
+  button:hover {
+    background-color: #2980b9; 
+    border-color: #3498db; 
+    color: #ffffff;
+  }
+  #background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
